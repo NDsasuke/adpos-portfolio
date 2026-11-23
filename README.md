@@ -1,4 +1,4 @@
-# Awaken POS
+# ADPOS
 
 A multi-tenant, cloud-hosted point-of-sale and retail management system for small and mid-sized
 retail shops in Sri Lanka — architected, built, tested and deployed by me as the sole developer.
@@ -42,7 +42,7 @@ suppliers, tax and reporting.
 ## Overview
 
 Most small retailers here run on paper, spreadsheets, or offline software locked to one machine,
-and the alternatives are priced for businesses many times their size. Awaken POS is a browser-based
+and the alternatives are priced for businesses many times their size. ADPOS is a browser-based
 system a shop opens on a desktop till, a tablet or a phone.
 
 **Who it is for:** independent shops and small chains — an owner plus a handful of staff, often on
@@ -205,7 +205,7 @@ ongoing development.
 
 ## My Role
 
-I am the sole developer of Awaken POS. Working independently, I handled the architecture,
+I am the sole developer of ADPOS. Working independently, I handled the architecture,
 implementation, testing, debugging, third-party integrations, and deployment and operations.
 
 I use AI coding tools extensively as part of my development workflow, while personally making the
@@ -238,4 +238,4 @@ engineering decisions, or a live demo.
 
 ---
 
-*Documentation only. Awaken POS is proprietary and its source code is not published.*
+*Documentation only. ADPOS is proprietary and its source code is not published.*

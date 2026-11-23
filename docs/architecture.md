@@ -1,6 +1,6 @@
 # Architecture
 
-A conceptual overview of how Awaken POS is put together, and why. This describes design decisions
+A conceptual overview of how ADPOS is put together, and why. This describes design decisions
 and their reasoning; it deliberately omits schema, configuration, infrastructure identifiers and
 implementation detail.
 
@@ -8,7 +8,7 @@ implementation detail.
 
 ## The central decision: tenancy at the database boundary
 
-Awaken POS is multi-tenant — many independent shops on one deployment. The usual approach is a
+ADPOS is multi-tenant — many independent shops on one deployment. The usual approach is a
 shared database with a tenant column on every table, filtered on every query. That works until the
 day somebody forgets the filter, and the failure mode is one business seeing another's sales.
 

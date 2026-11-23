@@ -1,6 +1,6 @@
 # Features
 
-A current implementation breakdown of Awaken POS. Statuses are marked explicitly where a feature
+A current implementation breakdown of ADPOS. Statuses are marked explicitly where a feature
 is partial or planned.
 
 **Legend:** ✅ Implemented · 🟡 Partially implemented · ⬜ Planned, not built

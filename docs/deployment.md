@@ -1,6 +1,6 @@
 # Deployment and Operations
 
-A high-level description of how Awaken POS is built, shipped and kept running. Infrastructure
+A high-level description of how ADPOS is built, shipped and kept running. Infrastructure
 identifiers, hostnames, credentials and environment configuration are deliberately not published.
 
 ---
