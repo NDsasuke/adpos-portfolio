@@ -57,19 +57,24 @@ and transliterated product names, and receipts sized for the thermal printers sh
 
 **Selling** — till with live product search; barcode scanning by hardware scanner, device camera or
 manual entry; discounts and recorded price overrides; cash and credit payment; sequential per-shop
-receipt numbering; duplicate-submission protection; void with separate authorisation; quotations.
+receipt numbering; duplicate-submission protection; void with separate authorisation; returns;
+quotations; a cash register with opening float and close-of-day over/short; one-tap receipt
+printing on Android through a companion app.
 
-**Stock** — costed batches with purchase and expiry dates, consumed oldest-first; CSV and manual
-intake recorded as auditable imports; adjustments, history, low-stock and expiry reporting.
+**Stock** — costed batches with purchase and expiry dates, consumed oldest-first; CSV, Excel and
+manual intake recorded as auditable imports, with a downloadable template listing the shop's
+products; adjustments, history, low-stock and expiry reporting.
 
-**Money** — customer credit and payment allocation; supplier payables; tax classification with
-inheritance; eleven reports across sales, cost, profit, stock valuation and tax; CSV exports.
+**Money** — customer credit and payment allocation; customer instalment plans; supplier payables;
+tax classification with inheritance; eleven reports across sales, cost, profit, stock valuation and
+tax; CSV exports.
 
 **Control** — shop-defined roles with a seniority ordering; per-feature permissions enforced in the
 request pipeline; append-only sales with void as the only correction; activity and admin audit logs.
 
 **Platform** — subscription plans gating features and staff seats, trials and renewals, PDF
-invoices, and an operator administration area.
+invoices, SMS verification of a shop's mobile number, owner-initiated shop closure, editable email
+templates, an operator administration area, and a public marketing website.
 
 → Full breakdown, including partial and planned work: **[docs/features.md](docs/features.md)**
 
@@ -157,7 +162,7 @@ client-state bugs from screens that handle money.
 PHPUnit, run in the same container image as the application against dedicated test databases, with
 layered guards making it structurally difficult for a test run to reach real data.
 
-Most recent full run: **1,638 tests, 9,635 assertions, passing**, across 268 test files — covering
+Most recent full run: **2,565 tests, 16,596 assertions, passing**, across 392 test files — covering
 financial correctness, security and access control, shop-facing behaviour, and convention tests
 enforcing build-time rules.
 

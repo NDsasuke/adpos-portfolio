@@ -11,7 +11,7 @@ or staff information appears in any image. Browser chrome is cropped out.
 | `inventory-intelligence.png` | Inventory intelligence | Total inventory value, capital locked in at-risk stock, expiry risk, and a dead-stock list with clearance actions |
 | `reports-daily.png` | Daily sales report | Sales by hour for a single trading day, with the receipt-by-receipt detail beneath it and CSV export |
 | `inventory.png` | Stock overview | On-hand quantity, open FIFO batches and stock value per product |
-| `stock-import.png` | Stock intake | Adding stock as immutable FIFO batches by CSV/Excel upload or manual entry, with optional supplier and payment |
+| `stock-import.png` | Stock intake | Adding stock as immutable FIFO batches by CSV/Excel upload or manual entry, with a downloadable Excel template listing the shop's products and an optional supplier and payment |
 | `products.png` | Product catalogue | Search and filtering, with tax class showing where it is inherited from the category |
 | `roles-permissions.png` | Roles and permissions | Shop-defined roles with a seniority level and per-feature permission counts |
 | `reports.png` | Stock valuation | FIFO inventory value from remaining batch quantities and cost price, with CSV export |

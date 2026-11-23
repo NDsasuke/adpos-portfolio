@@ -13,9 +13,9 @@ Most recent full run:
 
 | | |
 |---|---|
-| Tests | **1,638** |
-| Assertions | **9,635** |
-| Test files | **268** |
+| Tests | **2,565** |
+| Assertions | **16,596** |
+| Test files | **392** |
 | Result | Passing |
 
 There is no line-coverage figure here because I do not measure one, and quoting a number I cannot

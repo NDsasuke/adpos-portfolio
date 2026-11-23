@@ -22,8 +22,11 @@ is partial or planned.
 | Quotations, convertible to sales | ✅ |
 | Thermal receipt printing | ✅ |
 | Full-page bill printing | ✅ |
-| Silent printing without a print dialog | 🟡 Desktop only |
-| Sales returns and refunds | ⬜ |
+| Silent printing without a print dialog | 🟡 Desktop, and Android through a companion print app; not possible on iPhone |
+| Sales returns and refunds, with a printed return slip | ✅ |
+| Cash register — opening float, cash in and out, close with over/short | ✅ |
+| Full-screen till mode | ✅ |
+| Touch number pad for cash received | ✅ |
 
 ## Products and catalogue
 
@@ -38,7 +41,7 @@ is partial or planned.
 | Image optimisation on upload | ✅ |
 | Sinhala and transliterated search | ✅ |
 | Bulk catalogue import for an established shop | ⬜ |
-| Bulk product editing | ⬜ |
+| Bulk product editing — price, discount, stock threshold, category, status | ✅ |
 | Product variations | ⬜ |
 | Per-unit serial / IMEI tracking | ⬜ |
 | Item versus service product types | ⬜ |
@@ -49,7 +52,7 @@ is partial or planned.
 |---|---|
 | Costed stock batches with purchase and expiry dates | ✅ |
 | Oldest-batch-first consumption | ✅ |
-| Stock intake by CSV file | ✅ |
+| Stock intake by CSV or Excel file, with a downloadable template listing the shop's products | ✅ |
 | Stock intake by manual entry | ✅ |
 | Manual stock decrease for damage, loss and correction | ✅ |
 | Stock movement history | ✅ |
@@ -66,7 +69,8 @@ is partial or planned.
 | Payment collection with allocation across outstanding sales | ✅ |
 | Supplier records and delivery history | ✅ |
 | Supplier payables tracking and payment recording | ✅ |
-| Instalment terms on purchases | ⬜ |
+| Customer instalment plans with schedules and reminders | ✅ |
+| Instalment terms on supplier purchases | ⬜ |
 
 ## Reporting and exports
 
@@ -135,7 +139,9 @@ a shop is never left clicking something that silently does nothing.
 | Shop announcements | ✅ |
 | Support ticketing | ✅ |
 | Release notes | ✅ |
-| Administrator-editable email templates | ⬜ |
+| Administrator-editable email templates | 🟡 Wording and branding editable; a logo image is still to come |
+| Owner-initiated shop closure, with a cancellation window | ✅ |
+| Terms acceptance at registration and a cookie notice | ✅ |
 
 ## Security
 
@@ -145,6 +151,7 @@ a shop is never left clicking something that silently does nothing.
 | Google OAuth sign-in | ✅ |
 | Email OTP multi-factor authentication for administrator accounts | ✅ |
 | Password reset with verification | ✅ |
+| Shop mobile number verification by SMS | ✅ |
 | Rate limiting on authentication and other sensitive endpoints | ✅ |
 | Security header set including a nonce-based Content Security Policy | ✅ |
 | Correct client identification behind a reverse proxy | ✅ |
@@ -153,7 +160,8 @@ a shop is never left clicking something that silently does nothing.
 
 | Feature | Status |
 |---|---|
-| Scheduled backups | ✅ |
+| Scheduled database backups | ✅ |
+| Daily backup of uploaded files | ✅ |
 | Multiple backup destinations, including cloud object storage | 🟡 Primary destination in routine use |
 | Backup integrity verification | ✅ |
 | Documented and rehearsed restore procedure | ✅ |
@@ -167,7 +175,7 @@ a shop is never left clicking something that silently does nothing.
 | Feature | Status |
 |---|---|
 | English interface | ✅ |
-| Sinhala interface | 🟡 High-traffic screens and help centre complete; a tail of lower-traffic screens remains |
+| Sinhala interface | 🟡 Every shop screen and the help centre translated; some server-generated messages still in English |
 | Sinhala rendering on printed receipts | ✅ |
 | Separation of translated system text from untranslated shop-authored content | ✅ |
 | Tamil interface | ⬜ |
@@ -179,4 +187,12 @@ a shop is never left clicking something that silently does nothing.
 | Responsive interface for tablet and phone | ✅ |
 | Camera barcode scanning on mobile browsers | ✅ |
 | Hardware scanner support | ✅ |
-| Silent receipt printing from a mobile device | ⬜ Not achievable from a web page; a companion print bridge is designed but not built |
+| Silent receipt printing from a mobile device | 🟡 Android, through a companion print app (a web page cannot do it alone); iPhone not possible |
+| Selectable colour themes, light and dark | ✅ |
+
+## Public website
+
+| Feature | Status |
+|---|---|
+| Marketing website, with live copies of the real product screens | ✅ |
+| Blog with an editor, scheduling, previews and SEO fields | ✅ |
